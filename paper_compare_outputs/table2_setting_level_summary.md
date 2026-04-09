@@ -1,0 +1,13 @@
+# Table 2. Setting-Level Delta Summary
+
+| setting | avg_abs_delta | max_abs_delta | max_delta_metric | exact_match_metric_count | metrics_with_abs_delta_ge_0p02 |
+| --- | --- | --- | --- | --- | --- |
+| Wikidata-TekGen Vicuna All | 0.0086 | 0.0400 | RH | 4 | 1 |
+| Wikidata-TekGen Vicuna Selected | 0.0086 | 0.0400 | RH | 4 | 1 |
+| Wikidata-TekGen Vicuna Unseen | 0.0000 | 0.0000 | P | 7 | 0 |
+| Wikidata-TekGen Alpaca All* | 0.0057 | 0.0100 | OC | 3 | 0 |
+| Wikidata-TekGen Alpaca Selected* | 0.0100 | 0.0100 | P | 0 | 0 |
+| Wikidata-TekGen Alpaca Unseen | 0.0014 | 0.0100 | SH | 6 | 0 |
+| DBpedia-WebNLG Vicuna | 0.0000 | 0.0000 | P | 7 | 0 |
+| DBpedia-WebNLG Alpaca | 0.0000 | 0.0000 | P | 7 | 0 |
+| OVERALL | 0.0043 | 0.0400 | - | 38 | 2 |
